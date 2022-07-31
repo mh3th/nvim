@@ -80,6 +80,7 @@ return require('packer').startup {
             'tsserver',
             'html',
             'tailwindcss',
+            'omnisharp',
           },
         })
       end

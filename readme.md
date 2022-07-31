@@ -8,6 +8,7 @@
 - choco install mingw (windows) or choco install llvm (windows)
     - Start Neovim in a refreshed environment: refreshenv
     - Install parsers in Neovim via :TSInstall c, :TSInstall cpp
+- dotnet 
 
 ## Configuration based on lua and has simple schema
 
@@ -22,3 +23,5 @@
 
 Where `init.lua` is the main file for the configuration.
 `lua` directory contains all the files that are used to configure the plugin.
+
+# Note! fixed omnisharp route to file

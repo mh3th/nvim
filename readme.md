@@ -1,10 +1,10 @@
 # This is my configuration for [nvim](https://neovim.io/)
 
 ## Requirements
-
-- [neovim](https://neovim.io/) (choco install neovim --pre)
+- lua (for windows: choco install lua)
+- [neovim](https://neovim.io/) (for windows: choco install neovim --pre)
 - git
-- ripgrep (choco install ripgrep)
+- ripgrep (for windows: choco install ripgrep)
 - choco install mingw (windows) or choco install llvm (windows)
 
 ## Configuration based on lua and has simple schema

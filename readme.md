@@ -6,6 +6,8 @@
 - git
 - ripgrep (for windows: choco install ripgrep)
 - choco install mingw (windows) or choco install llvm (windows)
+    - Start Neovim in a refreshed environment: refreshenv
+    - Install parsers in Neovim via :TSInstall c, :TSInstall cpp
 
 ## Configuration based on lua and has simple schema
 

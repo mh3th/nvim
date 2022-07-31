@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [neovim](https://neovim.io/) (choco install neovim)
+- [neovim](https://neovim.io/) (choco install neovim --pre)
 - git
 - ripgrep (choco install ripgrep)
 - choco install mingw (windows) or choco install llvm (windows)

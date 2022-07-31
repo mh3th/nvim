@@ -35,10 +35,23 @@ local lsp_flags = {
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
-local servers = { 'rust_analyzer', 'tsserver', }
+local servers = { 
+  'sumneko_lua',
+  'rust_analyzer',
+  'tsserver',
+  'html',
+  'tailwindcss',
+}
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
   }
 end
+
+-- He's special
+lspconfig.omnisharp.setup{
+  cmd = { "dotnet", "C:/Users/kudriashov.m/AppData/Local/nvim-data/mason/packages/omnisharp/OmniSharp.dll" },
+  on_attach = on_attach,
+  capabilities = capabilities,
+}

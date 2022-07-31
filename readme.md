@@ -4,7 +4,7 @@
 
 - [neovim](https://neovim.io/)
 - git
-- ripgrep
+- ripgrep (choco install ripgrep)
 - choco install mingw (windows) or choco install llvm (windows)
 
 ## Configuration based on lua and has simple schema

@@ -50,8 +50,8 @@ for _, lsp in ipairs(servers) do
 end
 
 -- He's special
-lspconfig.omnisharp.setup{
-  cmd = { "dotnet", "C:/Users/kudriashov.m/AppData/Local/nvim-data/mason/packages/omnisharp/OmniSharp.dll" },
-  on_attach = on_attach,
-  capabilities = capabilities,
-}
+-- lspconfig.omnisharp.setup{
+--   cmd = { "dotnet", "C:/Users/kudriashov.m/AppData/Local/nvim-data/mason/packages/omnisharp/OmniSharp.dll" },
+--   on_attach = on_attach,
+--   capabilities = capabilities,
+-- }

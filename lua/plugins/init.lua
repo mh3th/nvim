@@ -80,7 +80,7 @@ return require('packer').startup {
             'tsserver',
             'html',
             'tailwindcss',
-            'omnisharp',
+-- this is special 'omnisharp',
           },
         })
       end

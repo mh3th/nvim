@@ -86,6 +86,7 @@ return require('packer').startup {
       end
     }
 
+    use 'github/copilot.vim'
 
     if packer_bootstrap then
       require('packer').sync()

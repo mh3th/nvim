@@ -1,0 +1,1 @@
+hi NormalFloat ctermfg=LightGrey
